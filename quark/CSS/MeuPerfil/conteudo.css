@@ -1,0 +1,48 @@
+@import "proficiencias.css";
+
+.conteudo {
+    margin-top: 32px;
+
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.informacoes{
+    display: flex;
+}
+
+#sobreMim {
+    background-color: transparent;
+    width: 500px;
+    height: 180px;
+    margin: 0;
+
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+}
+
+#proficiencias {
+    background-color: transparent;
+    width: 500px;
+    height: 230px;
+    margin: 0;
+    gap: 10%;
+    
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    font-family: 'Inter', sans-serif;
+}

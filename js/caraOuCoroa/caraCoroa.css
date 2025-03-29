@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#imagem{
+    width: 100%;
+    height: 100vh;
+    background-image: url(coin-toss.gif);
+    background-size: 630px, 200px;
+    background-repeat: no-repeat;
+}
+
+.posImg{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#jogo{
+    background-color: #696969;
+    width: 60%;
+    height: 100vh;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#titulo{
+    font-size: 100px;
+    border-radius: 20px;
+    background-color: #DCDCDC;
+    height: 25vh;
+    padding: 10px;
+}
+#sorteio{
+    font-size: 40px;
+}
+#resultadoMoeda{
+    font-size: 40px;
+}
+#textoCaraCoroa{
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: #DCDCDC;
+    height: 12vh;
+    padding: 10px;
+}
+#digiteCaraCoroa{
+    font-size: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #696969;
+    height: 10vh;
+    padding-left: 10px;
+}
+#butao{
+    width: 200px;
+    height: 50px;
+    background-color: #A9A9A9;
+    color: white;
+    font-size: 40px;
+}
+#butao:hover{
+    width: 210px;
+    height: 50px;
+    background-color: #808080;
+    transition: 0.2s;
+}
+#resultadoMoeda{
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: #DCDCDC;
+    height: 10vh;
+    width: 240px;
+    padding: 10px;
+}
+#resultadoJogador{
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: #DCDCDC;
+    height: 10vh;
+    width: 180px;
+    padding: 10px;
+}

@@ -1,0 +1,25 @@
+@import "botoes.css";
+
+#pesquisarBarra {
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    border: black solid 1px;
+    font-size: large;
+}
+
+.linhaSuperior {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.linhaInferior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+
+    gap: 3%;
+}

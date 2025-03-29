@@ -1,0 +1,121 @@
+.ladoEsquerdoProfi {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+#produtor {
+    background-color: white;
+    width: 128px;
+    height: 24px;
+
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 8px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#organizador {
+    background-color: white;
+    width: 128px;
+    height: 24px;
+    
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 8px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#avaliador {
+    background-color: white;
+    width: 128px;
+    height: 24px;
+    
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 8px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#criativo {
+    background-color: white;
+    width: 128px;
+    height: 24px;
+    
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 8px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.ladoDireitoProfi {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+#programador {
+    background-color: white;
+    width: 128px;
+    height: 24px;
+
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 8px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#investidor {
+    background-color: white;
+    width: 128px;
+    height: 24px;
+    
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 8px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#publicitario {
+    background-color: white;
+    width: 128px;
+    height: 24px;
+    
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 8px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#tester {
+    background-color: white;
+    width: 128px;
+    height: 24px;
+    
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 8px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+}

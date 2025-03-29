@@ -1,0 +1,68 @@
+.informacoes {
+    margin: 0;
+    width: 60vh;
+    height: 100vh;
+}
+
+#faleConosco {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+}
+
+#localizacao {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+}
+
+#telefone {
+    background-color: #D9D9D9;
+    margin-bottom: 16px;
+
+    border: 2px solid black;
+    border-radius: 16px;
+    
+    padding: 8px;
+
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}
+
+#email {
+    background-color: #D9D9D9;
+    margin-bottom: 16px;
+
+    border: 2px solid black;
+    border-radius: 16px;
+    
+    padding: 8px;
+
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}
+
+#mensagem{
+    background-color: #D9D9D9;
+    margin-bottom: 16px;
+
+    border: 2px solid black;
+    border-radius: 16px;
+    
+    padding: 8px;
+
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}
+
+#endereco {
+    background-color: #D9D9D9;
+    margin-bottom: 16px;
+
+    border: 2px solid black;
+    border-radius: 16px;
+    
+    padding: 8px;
+
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,44 @@
+@import "cabecalho.css";
+@import "conteudo.css";
+@import "servicos.css";
+
+body{
+    background-color: #FFBC40;
+    margin: 0;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    border-bottom: 2px black solid;
+
+    height: 9vw;
+}
+
+main {
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.ladoEsquerdo {
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ladoDireito {
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

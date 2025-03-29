@@ -1,0 +1,48 @@
+#titleLine {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    margin-top: 32px;
+
+    background-color: #CC8400;
+    width: 300px;
+    height: 60px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    font-size: xx-large;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+
+    border: 2px solid black;
+    border-radius: 32px;
+}
+
+#sobreAEmpresaLine {
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#sobreAEmpresa {
+    background-color: #FFA500;
+    width: 600px;
+    height: 300px;
+    padding: 8px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+
+    border: 2px solid black;
+    border-radius: 16px;
+}

@@ -1,0 +1,71 @@
+#homeButton {
+    background-color: #3430D0;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: x-large;
+
+    width: 150px;
+    height: 40px;
+
+    transition: width 1s;
+}
+
+#homeButton:hover {
+    background-color: #242099;
+    width: 180px;
+}
+
+#sobreButton {
+    background-color: #C32A2A;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: x-large;
+
+    width: 150px;
+    height: 40px;
+
+    transition: width 1s;
+}
+
+#sobreButton:hover {
+    background-color: #a32121;
+    width: 180px;
+}
+
+#contatoButton {
+    background-color: #36C133;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: x-large;
+
+    width: 150px;
+    height: 40px;
+
+    transition: width 1s;
+}
+
+#contatoButton:hover {
+    background-color: #2a9e28;
+    width: 180px;
+}
+
+#servicosButton {
+    background-color: #000000;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: x-large;
+
+    width: 150px;
+    height: 40px;
+
+    transition: width 1s;
+}
+
+#servicosButton:hover {
+    background-color: #000000;
+    width: 180px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Viva</title>
+ 
+    <link rel="stylesheet" href="/Calculadora Viva/calculadoraViva.css">
+</head>
+<body>
+    <div id="numeros">
+        <div>
+            <label for="numeroUm">Primeiro Número: </label>
+            <input type="number" id="numeroUm">
+        </div>
+        <div>
+            <label for="numeroDois">Segundo Número: </label>
+            <input type="number" id="numeroDois">
+        </div>
+    </div>
+    <div id="sinal">
+        <div>
+            <label for="sinais">Selecione + para Soma | - para Subtração<br>x para Multiplicação | / para divisão<br></label>
+            <input type="text" id="sinais">
+        </div>
+        <div>
+            <button onclick="resultado()">Calcular</button>
+        </div>
+    </div>
+    <div id="boxResultado"></div>
+    <script src="/Calculadora Viva/calculadoraViva.js"></script>
+</body>
+</html>
