@@ -17,8 +17,8 @@ def calculoDaAreadoTrapezio(BaseMaior, BaseMenor, Altura, Dividido2):
     return ((BaseMaior+BaseMenor*Altura)/Dividido2)
 
 #Área do Quadrado
-def calculoDaAreadoQuadrado(BaseQ, AlturaQ):
-    return (BaseQ*AlturaQ)
+def calculoDaAreadoQuadrado(lado):
+    return (lado*lado)
 
 while True:
     print("Digite 1 para escolher Círculo")
@@ -49,9 +49,8 @@ while True:
         print("A Área do Trapézio: ", resultadoT, "Metros")
 
     elif Escolha==4:
-        BaseQ=float(input("Digite a Base do Quadrado: "))
-        AlturaQ=float(input("Digite a Altura do Quadrado: "))
-        resultadoQ= calculoDaAreadoQuadrado(BaseQ, AlturaQ)
+        lado=float(input("Digite o lado do Quadrado: "))
+        resultadoQ= calculoDaAreadoQuadrado(lado)
         print("A Área do Quadrado é: ", resultadoQ, "Metros")
 
     elif Escolha==0:

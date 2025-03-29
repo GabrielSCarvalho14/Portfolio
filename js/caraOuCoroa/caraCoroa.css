@@ -12,7 +12,7 @@ body{
     width: 100%;
     height: 100vh;
     background-image: url(coin-toss.gif);
-    background-size: 630px, 200px;
+    background-size: 630px, 100vh;
     background-repeat: no-repeat;
 }
 
