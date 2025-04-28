@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
               
             ),
             onPressed: () {
-              // do something
+              // faça algo
             },
           )
         ],
@@ -30,13 +30,13 @@ class HomePage extends StatelessWidget {
             children: [
               GestureDetector(
                 onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => Produtos(produto: 0,))),
+                  .push(MaterialPageRoute(builder: (_) => const Produtos(produto: 0,))),
                 child: cardColumn(190, 250, Colors.white70, 'Moletom', 'R\$1200,00',
                     'assets/moletom.png'),
               ),
               GestureDetector(
                 onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => Produtos(produto: 1,))),
+                  .push(MaterialPageRoute(builder: (_) => const Produtos(produto: 1,))),
                 child: cardColumn(190, 250, Colors.white70, 'Bola de Basquete',
                     'R\$120,00', 'assets/bolaBasquete.png'),
               )
@@ -46,13 +46,13 @@ class HomePage extends StatelessWidget {
             children: [
               GestureDetector(
                 onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => Produtos(produto: 2,))),
+                  .push(MaterialPageRoute(builder: (_) => const Produtos(produto: 2,))),
                 child: cardColumn(190, 250, Colors.white70, 'Regata', 'R\$200,00',
                     'assets/regata.png'),
               ),
               GestureDetector(
                 onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => Produtos(produto: 3,))),
+                  .push(MaterialPageRoute(builder: (_) => const Produtos(produto: 3,))),
                 child: cardColumn(190, 250, Colors.white70, 'Tênis', 'R\$600,00',
                     'assets/tenis.png'),
               )
@@ -62,13 +62,13 @@ class HomePage extends StatelessWidget {
             children: [
               GestureDetector(
                 onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => Produtos(produto: 4,))),
+                  .push(MaterialPageRoute(builder: (_) => const Produtos(produto: 4,))),
                 child: cardColumn(190, 250, Colors.white70, 'Bandana', 'R\$60,00',
                     'assets/bandana.png'),
               ),
               GestureDetector(
                 onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => Produtos(produto: 5,))),
+                  .push(MaterialPageRoute(builder: (_) => const Produtos(produto: 5,))),
                 child: cardColumn(190, 250, Colors.white70, 'Sleeve', 'R\$60,00',
                     'assets/sleeve.png'),
               )
@@ -78,13 +78,13 @@ class HomePage extends StatelessWidget {
             children: [
               GestureDetector(
                 onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => Produtos(produto: 6,))),
+                  .push(MaterialPageRoute(builder: (_) => const Produtos(produto: 6,))),
                 child: cardColumn(190, 250, Colors.white70, 'Meia', 'R\$40,00',
                     'assets/meia.png'),
               ),
               GestureDetector(
                 onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => Produtos(produto: 7,))),
+                  .push(MaterialPageRoute(builder: (_) => const Produtos(produto: 7,))),
                 child: cardColumn(190, 250, Colors.white70, 'Protetor de Joelho',
                     'R\$50,00', 'assets/protetorJoelho.png'),
               )

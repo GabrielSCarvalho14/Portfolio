@@ -1,4 +1,0 @@
-— Tornar a aba "Index" responsivo à mudança de tamanho de tela (CHECAR);
-— Tornar a aba "Contato" responsiva à mudança de tamanho de tela;
-—
-—

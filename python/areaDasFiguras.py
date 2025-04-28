@@ -36,7 +36,7 @@ while True:
     
     elif Escolha==2:
         base=float(input("Digite a Base do Retângulo: "))
-        altura=float(input("Digite a Altura do Retângulo"))
+        altura=float(input("Digite a Altura do Retângulo: "))
         resultadoR= calculoDaAreadoRetangulo(base, altura)
         print("A Área do Retângulo é", resultadoR, "Metros")
 

@@ -1,16 +1,3 @@
 # planix
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Olá para você lendo o README, infelizmente a API usada no nosso grupo para login e cadastro, precisava ficar ligada para uso, então ela saiu do ar, mas durante seu tempo de operação ela funcionava muito bem, desculpa por isso, e para melhor visualização, utilize a tela do "Samsung Galaxy S20 Ultra", o projeto não foi criado de forma responsiva por falta de conhecimento de minha parte, então usei esse modelo para criar a aplicação, atenciosamente.

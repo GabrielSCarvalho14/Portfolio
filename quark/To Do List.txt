@@ -1,5 +1,0 @@
-— Colocar Icons em todas as Abas;
-— Tornar a aba "Sobre" mais interessante;
-— Arrumar as Posições da aba "Contato";
-— Fazer a aba "Meu Perfil";
-— Tornar a aba "Meu Perfil" responsiva à mudança de tamanho de tela;

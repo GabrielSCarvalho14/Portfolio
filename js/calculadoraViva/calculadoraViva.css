@@ -1,21 +1,18 @@
 body{
-    background-image: url(thumb-1920-516664.jpg);
+    background-color: #A9A9A9;
     background-size: cover;
     justify-content: center;
     display: flex;
 }
 #numeros{
-    color: brown;
     font-size: 30px;
     width: 45%;
 }
 #sinal{
-    color:blue;
     font-size: 30px;
     width: 45%;
 }
 #boxResultado{
-    color:green;
     font-size: 30px;
     width: 10%;
 }

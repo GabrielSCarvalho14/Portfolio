@@ -50,7 +50,7 @@ class _ProdutosState extends State<Produtos> {
       appBar: AppBar(
         leading:  IconButton(onPressed: (){
           Navigator.pop(context);
-        }, icon: Icon(Icons.arrow_back, color: Colors.white,),),
+        }, icon: const Icon(Icons.arrow_back, color: Colors.white,),),
         backgroundColor: const Color.fromRGBO(11, 37, 88, 1),
         title: Text(produtoNames[widget.produto], style: txtGraduateWhite(24), ),
         actions: <Widget>[
@@ -60,7 +60,7 @@ class _ProdutosState extends State<Produtos> {
               color: Colors.white,
             ),
             onPressed: () {
-              // do something
+              // faça algo
             },
           )
         ],

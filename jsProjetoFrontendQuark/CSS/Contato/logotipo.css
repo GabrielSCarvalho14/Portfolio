@@ -1,0 +1,18 @@
+.logotipo {
+    margin: 0;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+#logogrande {
+    position: absolute;
+    right: 35px;
+    top: 80px;
+}
+
+#medoContatar {
+    margin: 0;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+}
